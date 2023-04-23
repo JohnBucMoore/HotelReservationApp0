@@ -11,17 +11,17 @@ public class Room implements IRoom {
     }
     @Override
     public String getRoomNumber() {
-        return roomNumber;
+        return this.roomNumber;
     }
 
     @Override
     public Double getRoomPrice() {
-        return price;
+        return this.price;
     }
 
     @Override
     public RoomType getRoomType() {
-        return enumeration;
+        return this.enumeration;
     }
 
     @Override
@@ -31,6 +31,6 @@ public class Room implements IRoom {
 
     @Override
     public String toString() {
-        return "Room Number: " + roomNumber + "\nPrice: " + price + "\nRoom Type: " + enumeration;
+        return "Room Number: " + this.roomNumber + "\nPrice: " + this.price + "\nRoom Type: " + this.enumeration + "\n";
     }
 }

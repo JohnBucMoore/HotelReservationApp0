@@ -19,8 +19,20 @@ public class Customer {
         this.email = email;
     }
 
+    public String getFirstName() {
+        return this.firstName;
+    }
+
+    public String getLastName() {
+        return this.lastName;
+    }
+
+    public String getEmail() {
+        return this.email;
+    }
+
     @Override
     public String toString() {
-        return "First Name: " + this.firstName + "\nLast Name: " + this.lastName + "\nEmail: " + this.email;
+        return "First Name: " + this.firstName + "\nLast Name: " + this.lastName + "\nEmail: " + this.email + "\n";
     }
 }
