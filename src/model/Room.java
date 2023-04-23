@@ -11,21 +11,26 @@ public class Room implements IRoom {
     }
     @Override
     public String getRoomNumber() {
-        return null;
+        return roomNumber;
     }
 
     @Override
     public Double getRoomPrice() {
-        return null;
+        return price;
     }
 
     @Override
     public RoomType getRoomType() {
-        return null;
+        return enumeration;
     }
 
     @Override
     public boolean isFree() {
         return false;
+    }
+
+    @Override
+    public String toString() {
+        return "Room Number: " + roomNumber + "\nPrice: " + price + "\nRoom Type: " + enumeration;
     }
 }
